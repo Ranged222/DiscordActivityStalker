@@ -1,5 +1,3 @@
-
-# Walthy dick n ballz inc.
 import time
 from datetime import datetime, timedelta
 from selenium import webdriver
