@@ -7,27 +7,27 @@ Please IP authorize beforehand.
 Exactly how the title is, automated ACtivity checker.
 
 # prepartion:
-sudo apt update
+$ sudo apt update
 
-sudo apt upgrade
+$ sudo apt upgrade
 (duh ofc)
 
-sudo apt install wget
+$ sudo apt install wget
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-sudo dpkg -i google-chrome-stable_current_amd64.deb
+$ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-sudo apt-get install -f (if errors with the installation occur)
+$ sudo apt-get install -f (if errors with the installation occur)
 
 # pip requirements
 
-pip install selenium
+$ pip install selenium
 
-pip install chromedriver-autoinstaller
+$ pip install chromedriver-autoinstaller
 
 # usage
-pyhton3 script.py
+$ pyhton3 script.py
 
 # how this works!
 It runs a headless instance of google chrome which "stares" at the user their profile, and updates in console once online status changes, and a log.txt file.
