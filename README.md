@@ -5,6 +5,8 @@ Please IP authorize beforehand.
 
 # DiscordActivityStalker
 Exactly how the title is, automated ACtivity checker.
+![image](https://github.com/Ranged222/DiscordActivityStalker/assets/56038167/1243f2c3-cc51-4694-810c-9ee1e054b53a)
+
 
 # prepartion:
 $ sudo apt update
