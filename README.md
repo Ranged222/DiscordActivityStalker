@@ -9,7 +9,7 @@ Exactly how the title is, automated ACtivity checker.
 ![image](https://github.com/Ranged222/DiscordActivityStalker/assets/56038167/c6582683-6c1a-4ac8-981c-ab4b56fe7717)
 
 
-# prepartion:
+# preparation:
 $ sudo apt update
 
 $ sudo apt upgrade
@@ -30,8 +30,10 @@ $ pip install selenium
 $ pip install chromedriver-autoinstaller
 
 # usage
+$ git clone https://github.com/Ranged222/DiscordActivityStalker (if not done already)
+
 $ pyhton3 script.py
 
 # how this works!
-It runs a headless instance of google chrome which "stares" at the user their profile, and updates in console once online status changes, and a log.txt file.
+It runs a headless instance of google chrome which "stares" at the user their profile, and updates in console once online status changes, and logs it in a log.txt file.
 
